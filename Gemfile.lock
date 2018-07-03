@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    erb_with_hash (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  erb_with_hash
+
+BUNDLED WITH
+   1.16.2
