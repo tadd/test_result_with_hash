@@ -2,12 +2,14 @@ GEM
   remote: https://rubygems.org/
   specs:
     erb_with_hash (0.1.0)
+    rake (12.3.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   erb_with_hash
+  rake
 
 BUNDLED WITH
    1.16.2
