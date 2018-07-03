@@ -5,9 +5,9 @@ def erb(source_file, dest_file, vars = {})
   File.write(dest_file, applied)
 end
 
-default: index
+default: :index
 
-file :index do |t|
+file 'public/index.txt' do |t|
   Dir.mkdir 'public' unless Dir.exist?('public')
   erb('index.txt.erb', 'public/index.txt', value: world)
 end
