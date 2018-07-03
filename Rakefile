@@ -1,5 +1,5 @@
 require 'erb'
-require 'erb_with_hash' unless ERB.new.respond_to?(:result_with_hash)a
+require 'erb_with_hash' unless ERB.new.respond_to?(:result_with_hash)
 
 def erb(source_file, dest_file, vars = {})
   applied = ERB.new(File.read(source_file)).result_with_hash(vars)
